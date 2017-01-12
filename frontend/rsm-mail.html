@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en" class="no-js">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="icon" href="img/favicon.ico">
+		<link href='https://fonts.googleapis.com/css?family=Roboto:400,400italic,300,300italic,100,100italic,500,500italic,700,700italic,900,900italic&subset=latin,cyrillic' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="dist/semantic.css">
+		<link rel="stylesheet" href="dist/semantic.min.css">
+		<link rel="stylesheet" href="css/rsm-style.css">
+		<link rel="stylesheet" href="css/rsm-responsive.css">
+		
+ 
+
+
+		<title>ihotel.mn</title>
+	</head>
+	<body>
+		
+		<div class="login-body">
+	
+			<div class="ui fluid stackable container">
+				
+				<div class="ui stackable column grid">
+					
+					<div class="sixteen wide column">
+						<div class="ui stackable container">
+							
+							<div class="ui stackable grid">
+								<div class="ui three column row">
+									<div class="column">
+									</div>
+									<div class="column">
+										
+										<form class="ui form segment">
+											<img class="ui centered small image hotel-add" src="img/logo-service.png">
+											<h3 class="ui horizontal header divider">
+											НУУЦ ҮГ СЭРГЭЭХ
+											</h3>
+
+											<div class="sixteen wide field">
+												<div class="field">
+													<label>Таны имэйл</label>
+													<input type="text" name="email">
+												</div>
+											</div>
+									 
+									 
+											<div class="ui primary fluid button">ИЛГЭЭХ</div>
+											<div class="field">
+												
+												<label  class="center aligned security"><a href="#">НЭВТРЭХ</a></label>
+											</div>
+										</form>
+									</div>
+									<div class="column">
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+	
+			</div>
+			
+			<div class="copyright">
+				<div class="ui center aligned stackable container">
+					<div class="ui stackable grid">
+						<div class="three column row">
+							<div class="column"></div>
+							<div class="column">
+								© COPYRIGHT 2016 WWW.IHOTEL.MN - АЙХОТЕЛ ХХК
+							</div>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+	</body>
+	<script type="text/javascript" src="js/jquery-2.1.4.min.js"></script>
+	<script src="dist/semantic.min.js"></script>
+	<script src="js/modernizr.js"></script>
+	<script type="text/javascript" src="dist/components/popup.js"></script>
+	<script type="text/javascript" src="dist/components/dropdown.js"></script>
+	<script type="text/javascript" src="dist/components/transition.js"></script>
+	<script src="js/iframe-content.js"></script>
+	<script src="js/main.js"></script>
+	<script src="js/responsiveslides.min.js"></script>
+	
+	<script>
+	$('.ui.checkbox')
+	.checkbox()
+	;
+	$('.ui.rating')
+	.rating()
+	;
+	$('.ui.accordion')
+	.accordion()
+	;
+	$('.clear.example .button')
+	.on('click', function() {
+	$('.clear.example .ui.dropdown')
+	.dropdown('clear')
+	;
+	})
+	;
+	$(document)
+	.ready(function() {
+	$('.ui.dropdown')
+	.dropdown({
+	on: 'click'
+	})
+	;
+	})
+	;
+	$('.clear.example .button')
+	.on('click', function() {
+	$('.clear.example .ui.dropdown')
+	.dropdown('clear')
+	;
+	})
+	;
+	$('.ui.search')
+	.search({
+	source: content
+	})
+	;
+	</script>
+	<script>
+	$('.ui.form')
+	.form({
+	fields: {
+	
+	email: {
+	identifier  : 'email',
+	rules: [
+	{
+	type   : 'empty',
+	prompt : 'Please enter your name'
+	}
+	]
+	},
+	name: {
+	identifier  : 'password',
+	rules: [
+	{
+	type   : 'empty',
+	prompt : 'Please enter your name'
+	}
+	]
+	}
+	}
+	})
+	;
+	</script>
+</html>
