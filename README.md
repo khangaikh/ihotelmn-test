@@ -1,13 +1,13 @@
 # ihotelmn-test
 Test project for ihotel.mn
 
-Apache2
-PHP auto_session = 0
-Parse PHP SDK
-Parse DB
-Twig Template engine
-Jquery
-Bootstrap
-CSS
+Apache2 <br />
+PHP auto_session = 0<br />
+Parse PHP SDK<br />
+Parse DB<br />
+Twig Template engine<br />
+Jquery<br />
+Bootstrap<br />
+CSS<br />
 
 
